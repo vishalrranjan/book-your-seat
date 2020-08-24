@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/style.css">
+    <title>Seat-Booking</title>
+</head>
+<body>
+    <div class="movie-container">
+        <label>Select a movie :</label>
+        <select id="movie">
+            <option value="150"> Dil Bechara (₹150) </option>
+            <option value="180"> Avengers: Endgame (₹180) </option>
+            <option value="260"> Dhoni The Untold Story (₹260) </option>
+            <option value="390"> URI The surgical strike (₹390) </option>
+        </select>
+    </div>
+
+    <ul class="showcase">
+        <li>
+            <div class="seat"></div>
+            <small>N/A</small>
+        </li>
+        <li>
+            <div class="seat selected"></div>
+            <small>Selected</small>
+        </li>
+        <li>
+            <div class="seat occupied"></div>
+            <small>Occupied</small>
+        </li>
+    </ul>
+    <div class="theater" >
+        <div class="column">
+            <div class="row-no">A</div>
+            <div class="row-no">B</div>
+            <div class="row-no">C</div>
+            <div class="row-no">D</div>
+            <div class="row-no">F</div>
+            <div class="row-no">E</div>
+        </div>
+    
+        <div class="theater-container">
+            <div class="screen"></div>
+            <small class="screen-direction">screen this way</small>
+    
+            <div class="row">
+                
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">                
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">                
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+            </div>
+            <div class="row">
+                
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+            <div class="row">
+                
+                <div class="seat occupied"></div>
+                <div class="seat occupied"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div>
+                <div class="seat"></div> 
+                <div class="seat"></div>
+                <div class="seat"></div>
+            </div>
+    
+        </div>
+    </div>
+    <p class="text">you have selected <b> <span id="count">0</span> </b> seat for a price of ₹ <b> <span id="total"> 0 </span> </b>.</p>
+
+
+    <script src="/app.js"></script>
+</body>
+</html>

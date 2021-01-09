@@ -1,4 +1,5 @@
 # Project Name :- Book Your Seat
+*hosted here (https://book-your-seat.netlify.app/)
 
 ## Technology :- HTML, CSS and JavaScript
 

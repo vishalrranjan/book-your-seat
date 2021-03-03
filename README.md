@@ -6,5 +6,5 @@
 
 ### Description :- This app can be used to book a seat for a concert, movie, event etc.
 
-> **follow me for more**
+> _follow me for more_
 

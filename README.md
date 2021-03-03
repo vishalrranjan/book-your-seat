@@ -2,7 +2,7 @@
 *hosted here (https://book-your-seat.netlify.app/)
 
 :heavy_check_mark:  
-## Technology :- HTML, CSS and JavaScript 
+## Technology :- HTML, CSS and JavaScript :beginner:
 
 ### Description :- This app can be used to book a seat for a concert, movie, event etc.
 
